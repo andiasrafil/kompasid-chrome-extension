@@ -1,0 +1,45 @@
+.kompas-reader-mode {
+  background-color: #f8f9fa;
+}
+
+.kompas-reader-mode article {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.kompas-reader-mode h1 {
+  font-size: 32px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.kompas-reader-mode p {
+  margin-bottom: 1.5em;
+}
+
+.kompas-reader-mode img {
+  max-width: 100%;
+  height: auto;
+  margin: 24px 0;
+  border-radius: 4px;
+}
+
+.kompas-reader-mode figure {
+  margin: 24px 0;
+}
+
+.kompas-reader-mode figcaption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* Hide distracting elements in reader mode */
+.kompas-reader-mode .social-share,
+.kompas-reader-mode .related-articles,
+.kompas-reader-mode .newsletter-signup,
+.kompas-reader-mode .comments-section {
+  display: none !important;
+}
